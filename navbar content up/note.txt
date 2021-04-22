@@ -1,0 +1,21 @@
+NAVBAR CONTENT UP :
+Take navbar bootstrap > take navbar-collapse div in a div.row row2.
+
+in css :
+
+@media only screen and (max-width:990px){
+    .row2{
+        background-color: rgb(255, 255, 255);
+        position: absolute;
+        width: 100%;
+        left: 12px;
+        top:48px;
+    }
+    .navbar-collapse ul{
+        align-items: center;
+    }
+    .navbar-collapse {
+        overflow: scroll;
+        height: 250px;
+    }
+}
